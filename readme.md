@@ -30,4 +30,4 @@ Open the Command Prompt, cd to the current directory, and input:
 set BLINKA_U2IF=1
 python gui.py
 ```
-Note: Although the GUI supports cross-platform, this application only support Windows system, because the setup for the U2IF firmware varys between different operating systems.
+Note: 1. Although the GUI supports cross-platform, this application only support Windows system, because the setup for the U2IF firmware varys between different operating systems. 2. Before running the gui.py, the computer must correctly connects to the Raspberry Pi Pico (with U2IF Firmware, via USB) and R&S RTB2004 Oscilloscope. Otherwise the program will report error.
